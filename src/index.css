@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.textDarkGreen{@apply text-[#174D4D]}
+.lightBlue{@apply bg-[#D6EDF2]}
+.lightGray{@apply bg-[#7F7F7F]}
+.black{@apply bg-black}
+.darkGreen{@apply bg-[#174D4D]}
+.darkRed{@apply bg-[#CB3636]}
+.lightRed{@apply bg-[#FF4949]}
+.lighCrem{@apply bg-[#EEEEEE]}
+.shadow{@apply shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]}
+
+.suptitle{@apply text-dark-green font-semibold  text-base inline-block }
+.textD{@apply leading-5;}
+.m{
+    border:2px solid green
+}
+.m2{
+    border:2px solid black
+}
+.texto{
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+}
+.texto2{
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.cartClothing{
+    flex:1 0 auto;
+    margin: 0 15px;
+}
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari, and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      /* Hide scrollbar for IE, Edge, and Firefox */
+      .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+    
+  }
