@@ -1,0 +1,87 @@
+/* section hero */
+
+.hero_paragraph {
+  min-width: 80%;
+  transition: all 0.3s ease;
+
+}
+
+.products_content {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.blob {
+  left: -120px;
+}
+
+
+
+.productById {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.productById_figure {
+  flex: 1;
+}
+
+.productById_figure img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.productById_paragraph {
+  flex: 1;
+}
+
+.products_filter_content {
+  justify-content: space-between;
+}
+
+
+/*section login*/
+.login_content>div {
+  min-width: 100%;
+}
+
+/*userProfile*/
+
+.userProfile_background {
+  height: 200px;
+}
+
+.user_Profile_figure {
+  width: 200px;
+  height: 200px;
+}
+
+.userProfile_box {
+  top: -100px;
+}
+
+.userProfile_buttons {
+  width: 200px;
+  gap: 20px;
+  position: absolute;
+  flex-direction: column;
+  right: 10px;
+  top: 20px;
+}
+
+
+/*sectino stats*/
+
+.stats_content {
+  width: 100%;
+  text-align: center;
+}
+
+/* section customer */
+
+.customers_content {
+  grid-template-columns: 1fr 1fr;
+}
